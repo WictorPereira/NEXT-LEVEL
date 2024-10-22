@@ -1,0 +1,112 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+    
+    body {
+        background-color: #112034;
+        width: 100%;
+        height: 100%;
+        font-family: "Poppins"
+    }
+    
+    form {
+        width: 492px;
+        height: 615px;
+        margin: 164px auto;
+    
+        background-color: #0C1623;
+    }
+    
+    .global-form{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .header{
+        display: flex;
+        align-items: center;
+          
+        gap: 4px;  
+        margin-bottom: 40px;
+        color: #ffff;
+       
+    
+    }
+    
+    .header > h1{
+        font-weight: bold;
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    
+    .header > img{
+        margin-top: 40px;
+    }
+    
+    .login-normal{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 50px;
+    }
+    
+    .login-normal > input{
+        height: 45px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        text-align: center;
+    
+        border-radius: 4px;
+        font-size: 16px;
+        outline: none;
+    }
+    
+    .div-btn-login{
+        display: flex;
+        justify-content: center;
+    }
+    .btn-login{
+        width: 133px;
+        height: 33px;
+        margin-top: 30px;
+    
+        border-radius: 8px;
+    
+        font-weight: 700;
+        font-size: 14px;
+    
+        cursor: pointer;
+    }
+    
+    .ajuda{
+        color: #ffff;  
+    
+        margin-top: 20px;
+    
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+    .ajuda > p > a{
+        color: #ffff;
+    }
+    
+    .termos-contratos{
+        color: #ffff;
+    
+        margin-top: 20px;
+    
+        font-weight: 500;
+        font-size: 13px;
+    }
+    
+    .termos-contratos > a{
+        color: #ffff;
+    }
