@@ -1,0 +1,274 @@
+/* Reseta margens e bordas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: poppins;
+    background-color: #0c1623;
+    color: #fff;
+  }
+/* Side bar*/
+
+  .container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 285px;
+    background-color: #112034;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .logo {
+   display: flex;
+   justify-content: center;
+   margin-top: 40px;
+  }
+
+  .nav-ul{
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin-top: 50px;
+  }
+  
+  nav ul li {
+    margin-top: 20px;
+    cursor: pointer;
+    color: #ccc;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  nav ul li img {
+    margin-right: 10px;
+  }
+  
+  
+  nav ul li:hover {
+    color: #fff;
+  }
+  
+.privacy{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: end;
+    margin-bottom: 20px;
+}
+
+.privacy p{
+    border-top: 1px solid #ffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/*Main*/
+
+.content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 632px; 
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+  }
+  
+  .search-bar {
+    position: relative;
+    width: 100%;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    outline: none;
+    background-color: #1B2737;
+    color: #fff;
+    padding-left: 35px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .search-bar input span {
+    width: 21px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-bar .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    transform: translateY(-50%);
+    color: #888;
+  }
+  
+  .linha-header{
+    border: solid 1px #ffffff7e;
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+  .post-box {
+    background-color: #1f2a44;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-box textarea {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #111b2d;
+    color: #fff;
+    resize: none;
+    font-size: 14px;
+  }
+  
+  .post-box button {
+    margin-top: 10px;
+    padding: 8px 20px;
+    background-color: #3b82f6;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+    font-size: 14px;
+  }
+  
+  .post-box button:hover {
+    background-color: #2563eb;
+  }
+  
+  .blue-line {
+    width: 100%;
+    height: 2px;
+    background-color: #3b82f6;
+    margin-top: 10px;
+  }
+  
+  .post {
+    background-color: #1f2a44;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .user-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .username {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .level {
+    font-size: 12px;
+    color: #ccc;
+  }
+  
+  .post-content {
+    margin: 10px 0;
+  }
+  
+  .post-content .post-image {
+    width: 100%;
+    height: 200px;
+    background-color: #ccc;
+    border-radius: 8px;
+  }
+  
+  .post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .left-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .right-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .right-sidebar {
+    width: 250px;
+    background-color: #1f2a44;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .right-sidebar .section {
+    background-color: #111b2d;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .communities {
+    height: 120px;
+  }
+  
+  .favorites {
+    height: 80px;
+  }
+  
+  .news {
+    height: 180px;
+  }
