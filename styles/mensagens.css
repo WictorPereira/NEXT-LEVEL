@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #0C1623;
+    color: #ffffff;
+}
+
+.icon-sidebar > img {
+    margin-top: 35px;
+}
+
+.icon-sidebar {
+    width: 77px;
+    background-color: #112034;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    gap: 100px;
+}
+
+.icon-sidebar ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.icon-sidebar ul li img{
+    width: 20px;
+    height: 20px;
+}
+
+.menu-icon {
+    color: #aaa;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 7px;
+}
+.menu-icon-selected  {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-icon:hover {
+    color: #ffffff;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #1f1f2b;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    background-color: #888;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    padding: 10px;
+    width: 100%;
+    background-color: #2b2b3b;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #aaa;
+}
+
+.menu-item.active, .menu-item:hover {
+    background-color: #3a3a4d;
+    color: #ffffff;
+}
+
+.menu-item p {
+    font-size: 12px;
+    color: #777;
+}
+
+.chat-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    padding: 20px;
+    background-color: #1f1f2b;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.user-info {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.status {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.chat-content {
+    flex: 1;
+    background-color: #121212;
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f2b;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    background-color: #2b2b3b;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.input-icons {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    color: #888;
+}
