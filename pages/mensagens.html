@@ -9,9 +9,9 @@
 <body>
     
     <div class="icon-sidebar">
-        <img src="/images/logo-sem-nome.png" alt="" width="" height="">
+        <img src="/images/logo-sem-nome.png">
         <ul>
-            <li class="menu-icon"> <img src="/images/pepicons-pop_house.png" alt="casa"></li>
+            <li class="menu-icon"> <a href="/pages/home.html"><img src="/images/pepicons-pop_house.png" alt="casa"></a></li>
             <li class="menu-icon"> <img src="/images/ic_baseline-notifications-active.png" alt="sino"></li>
             <li class="menu-icon"> <img src="/images/stash_trophy.png" alt="campeonatos"></li>
             <li class="menu-icon-selected"> <img src="/images/lets-icons_message.png" alt="mensagen"></li>
@@ -20,29 +20,41 @@
             <li class="menu-icon"> <img src="/images/gridicons_create.png"alt="criar"></li>
         </ul>
     </div>
+
     <div class="sidebar">
-        <div class="logo"></div>
-        <div class="menu-item active">
-            <span>Conversas</span>
+        <div class="menu-conversas">
+            <h3>Conversas</h3>
+            <span> <img src="/images/lets-icons_message.png" alt=""></span>
         </div>
         <div class="menu-item">
-            <span>Usuário3</span>
-            <p>AAAAA</p>
+            <div class="logo-usuario">
+                <div class="logo"></div>
+                <span>Usuário3293037</span>
+                <div class="tres-pontos"> <img src="/images/3 pontos.png" alt=""></div>
+            </div>
+            <p>AAAAAA</p>
         </div>
-        <p>Não há mais conversas</p>
+        <p class="sem-conversas">Não há mais conversas</p>
     </div>
+
     <div class="chat-area">
         <div class="chat-header">
-            <span class="user-info">Usuário3293037</span>
-            <span class="status">Nível 3 - Online há 3 horas atrás</span>
+            <div class="usuario-logo">
+                <div><img src="" alt=""></div>
+            </div>  
+            <div class="informaçoes">
+                <h3>Usuário3293037</h3>
+                <p class="status">Nível 3</p>         
+                <p class="online">On-line há 3 horas atrás</p>
+            </div>
+            <div class="pontos-header">
+                <img src="/images/3pontos-background.png" alt="">
+            </div>
         </div>
+        
         <div class="chat-content"></div>
         <div class="chat-input">
-            <input type="text" placeholder="Digite aqui...">
-            <div class="input-icons">
-                <span>😊</span>
-                <span>❤️</span>
-            </div>
+            <input class="input-with-icon" type="text" placeholder="Digite aqui...">           
         </div>
     </div>
 

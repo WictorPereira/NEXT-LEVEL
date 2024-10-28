@@ -290,6 +290,7 @@
   .left-icons span img {
     width: 20px;
     height: 20px;
+    cursor: pointer;
   }
   
   .right-icons {
@@ -303,6 +304,7 @@
   .right-icons span {
     display: flex;
     gap: 5px;
+    cursor: pointer;
   }
 
 /*sidebar da direita*/
