@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+body{
+    font-family: poppins;
+    background-color: #0c1623;
+    color: #fff;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 285px;
+    height: 100vh;
+    background-color: #112034;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo {
+   display: flex;
+   justify-content: center;
+   margin-top: 40px;
+  }
+
+  .nav-ul{
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin-top: 50px;
+  }
+  
+  nav ul li {
+    margin-top: 20px;
+    cursor: pointer;
+    color: #ccc;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #ccc;
+  }
+
+  nav ul li img {
+    margin-right: 10px;
+  }
+  
+  
+  nav ul li a:hover {
+    color: #fff;
+  }
+  
+.privacy{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: end;
+    margin-bottom: 20px;
+}
+
+.privacy p{
+    border-top: 1px solid #ffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/*lupa header*/
+
+.content {
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    border: 1px solid greenyellow;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+
+  .content::-webkit-scrollbar {
+    display: none; /* Para navegadores baseados em WebKit como Chrome e Safari */
+  }
+
+.top-bar {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0px 0px 0px;
+  }
+  
+  .search-bar {
+    position: relative;
+    width: 632px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    outline: none;
+    background-color: #1B2737;
+    color: #fff;
+    padding-left: 35px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .search-bar input span {
+    width: 21px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-bar .search-icon {
+    position: absolute;
+    top:50%;
+    left: 8px;
+    transform: translateY(-50%);
+    color: #888;
+  }
+  
+  .linha-header{
+    border: solid 1px #ffffff54;
+    margin-bottom: 40px;
+    margin-top: 25px;
+  }
+
+  .options{
+    display: flex;
+    gap: 10px;
+  }
+
+  .btn-perfil{
+    width: 93px;
+    height: 33px;
+
+    background-color: #1B2737;
+    color: #ffff;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .btn-3pontos{
+    width: 35px;
+    height: 35px;
+    
+    border-radius: 50%;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #ffff;
+    background-color: #1B2737;
+    cursor: pointer;
+
+  }
+
+/*Cards*/
+
+.talvez-interesse{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 100px;
+}
+
+.h3-talvez-interesse{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.card-interesse {
+    background-color: #10141E;
+    border-radius: 27px;
+    width: 280px;
+    height: 274px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+
+.image-placeholder {
+    background-color: #D3D3D3; 
+    height: 160px;
+}
+
+
+.details {
+    background-color: #1E2433; 
+    color: #FFFFFF;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.top-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #A0A3B1;
+    margin-bottom: 10px;
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.date p{
+    font-size: 13px;
+}
+
+.participants{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.participants p{
+    font-size: 13px;
+}
+.participants img{
+    width: 18px;
+    height: 18px;
+}
+.h3-amistosos {
+    font-size: 18px;
+    font-weight: bold;   
+}
+
+.game-type {
+    font-size: 8px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.bottom-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #A0A3B1;
+    border-top: 1px solid #bab3b379;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.points{
+    color: #BAB3B3;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.price{
+    color: #BAB3B3;
+    font-size: 10px;
+    padding-top: 5px;
+}

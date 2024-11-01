@@ -7,7 +7,7 @@
 body {
     display: flex;
     height: 100vh;
-    font-family: Arial, sans-serif;
+    font-family: poppins;
     background-color: #0C1623;
     color: #ffffff;
 }
