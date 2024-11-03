@@ -28,6 +28,17 @@ body{
    margin-top: 40px;
   }
 
+  .menu-icon-selected {
+    display: flex;
+    align-items: center;
+    margin-left: -6px;
+  }
+  .menu-icon-selected img{
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: 4px;
+    margin-right: 5px;
+  }
   .nav-ul{
     display: flex;
     justify-content: center;
@@ -84,7 +95,6 @@ body{
     width: 100%;  
     display: flex;
     flex-direction: column;
-    border: 1px solid greenyellow;
     overflow-y: scroll;
     scrollbar-width: none;
   }
@@ -133,7 +143,7 @@ body{
   
   .linha-header{
     border: solid 1px #ffffff54;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-top: 25px;
   }
 
@@ -178,14 +188,22 @@ body{
 
 .talvez-interesse{
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    gap: 12px;
     padding-left: 100px;
 }
 
-.h3-talvez-interesse{
+.encerrados{
+  display: flex;
+  gap: 12px;
+  padding-left: 100px;
+}
+
+.h3-titulos{
     font-size: 24px;
     font-weight: 500;
+    padding-left: 100px;
+    margin-bottom: 25px;
+    margin-top: 40px;
 }
 
 
@@ -212,6 +230,7 @@ body{
     padding: 15px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    cursor: pointer;
 }
 
 .top-info {
@@ -236,6 +255,7 @@ body{
     display: flex;
     align-items: center;
     gap: 5px;
+    color: #fff;
 }
 .participants p{
     font-size: 13px;
@@ -276,4 +296,42 @@ body{
     color: #BAB3B3;
     font-size: 10px;
     padding-top: 5px;
+}
+
+/*OUTRO JOGOS*/
+
+.nav-bar {
+  display: flex;
+  gap: 10px;
+  padding-left: 100px;
+  margin-bottom: 50px;
+}
+.nav-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 183px;
+  height: 54px;
+  background-color: #1B2737;
+  color: white;
+  border-radius: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+}
+.nav-button:hover {
+  background-color: #334155;
+}
+.nav-button:last-child::after {
+  content: '>';
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+}
+.nav-button:last-child {
+  background: linear-gradient(to right, #1e293b, rgba(30, 41, 59, 0));
 }
