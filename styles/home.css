@@ -33,6 +33,17 @@
    margin-top: 40px;
   }
 
+  .menu-icon-selected {
+    display: flex;
+    align-items: center;
+    margin-left: -6px;
+  }
+  .menu-icon-selected img{
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: 4px;
+    margin-right: 5px;
+  }
   .nav-ul{
     display: flex;
     justify-content: center;
@@ -82,7 +93,6 @@
     font-size: 15px;
     font-weight: 500;
 }
-
 /*Main*/
 
 .content {
