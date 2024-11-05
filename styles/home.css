@@ -297,6 +297,11 @@
     display: flex;
     gap: 5px;
   }
+
+  .liked {
+    filter: invert(80%) sepia(95%) saturate(5500%) hue-rotate(-10deg) brightness(90%) contrast(100%);
+}
+
   .left-icons span img {
     width: 20px;
     height: 20px;
