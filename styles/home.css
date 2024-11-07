@@ -411,28 +411,64 @@
   }
   .comunidade{
     width: 263px;
-    height: 504px;
+    height: 400px;
     background-color: #112034;
+    padding: 10px;
   }
   .comunidade h3{
-    padding: 10px;
+    font-weight: 500;
+  }
+
+  .comunidade ul{
+    list-style: none;  
+  }
+  .comunidade li{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgba(37, 100, 235, 0.226), rgba(255, 255, 255, 0));
+    border-radius: 3px;
   }
 
   .jogos-favoritos{
     width: 263px;
     height: 126px;
     background-color: #112034;
+    padding: 5px 10px 5px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
   .jogos-favoritos h3{
-    padding: 10px;
-  
+    font-weight: 500;
+  }
+  .div-icones-games{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
   }
 
   .noticias{
+    background-image: 
+        linear-gradient(to top, rgba(255, 255, 255, 0.445), rgba(0, 0, 0, 0.836)),
+        url('/images/time-loud.png');
+    background-size: cover; 
     width: 263px;
     height: 173px;
+    padding: 5px 10px 5px 20px;
     background-color: #112034;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
   }
   .noticias h3{
-    padding: 10px;
+  font-weight: 500;
+  }
+  .noticias p{
+
+    font-size: 13px;
   }
