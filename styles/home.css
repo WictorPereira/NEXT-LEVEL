@@ -198,12 +198,12 @@
     color: #ffff;
   }
 
-  .post-box button {
+  .post-box .postar {
     width: 68px;
     height: 28px;
     padding: 15px;
     margin-bottom: 13px;
-    margin-right: 13px;
+    margin-right: 5px;
     background-color: #364A64;
     border: none;
     border-radius: 6px;
@@ -216,6 +216,28 @@
     display: flex;
     align-items: center;
     align-self: end;
+  }
+
+  .dowload-post{
+    width: 50px;
+    height: 28px;
+    padding: 15px;
+    margin-bottom: 13px;
+    margin-right: 10px;
+    
+    background-color: #112034;
+    border: none;
+    border-radius: 6px;
+    color: #FEFEFE;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+
+    display: flex;
+    align-items: center;
+    align-self: end;
+    justify-content: center;
   }
   
   .post-box button:hover {
