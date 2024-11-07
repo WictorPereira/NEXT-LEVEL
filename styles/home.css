@@ -450,6 +450,16 @@
     gap: 10px;
   }
 
+  .div-icones-games img{
+    border: 1px solid rgba(48, 90, 145, 0);
+    transition: border-color 0.3s ease, border-width 0.3s ease;
+    padding: 2px;
+  }
+  .div-icones-games img:hover{
+    border-color: rgb(80, 120, 200);
+    border-width: 1px;
+  }
+
   .noticias{
     background-image: 
         linear-gradient(to top, rgba(255, 255, 255, 0.445), rgba(0, 0, 0, 0.836)),
