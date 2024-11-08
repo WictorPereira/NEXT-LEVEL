@@ -307,10 +307,17 @@ body {
         font-size: 18px;
     }
     .menu-item {
-        height: 75px;
+        height: 85px;
         margin-top: 35px;
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo-usuario{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
     .menu-item .logo-usuario .tres-pontos {
         width: 35%;
@@ -321,9 +328,8 @@ body {
         font-size: 13px;
     }
     .menu-item p {
-        font-size: 11px;
-        color: #777;
-        margin-left: 55px;
+        font-size: 10px;
+        margin-left: 10px;
     }
     .sem-conversas{
         font-size: 13px;
