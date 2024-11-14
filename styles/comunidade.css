@@ -170,6 +170,11 @@ nav ul li a:hover {
     border-radius: 3px;
     cursor: pointer;
   }
+  .a-btn{
+    text-decoration: none;
+    color: #fff;
+  }
+
 
   .btn-3pontos{
     width: 35px;
