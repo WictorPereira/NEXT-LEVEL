@@ -12,6 +12,7 @@
     display: flex;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
   }
 
   /* Side bar*/
@@ -99,8 +100,10 @@
     display: flex;
     flex-direction: column;
     width: 630px;
-    margin-top: 15px;
+    margin-top: 40px;
     margin-left: 20px;
+    overflow-y: scroll;
+    scrollbar-width: none;
   }
 
   .main-container span{
@@ -155,7 +158,7 @@
   }
 
   .usuario-e-foto img{
-    position: absolute; 
+    position: sticky;
     width: 123px;
     height: 123px;
     border-radius: 50%;
@@ -165,7 +168,8 @@
   .usuario-e-foto h3{
     font-size: 28px;
     font-weight: 500;
-    margin-left: 130px;
+    margin-top: 5px;
+    
   }
   .container-descricao p {
     color: #E0E0E0;
@@ -200,3 +204,110 @@
     border: 1px solid #ffff;
     padding: 0px 8px 0px 8px;
   }
+
+  /*ultimo post*/
+
+  .ultimo-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: #112034;
+  }
+  .span-post{
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .span-post img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  .span-post h4{
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .span-post p{
+    font-weight: 500;
+    font-size: 10px;
+  }
+
+
+
+
+  .post-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    
+  }
+
+  .post-content p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .post-content .post-image img {
+    width: 100%;
+    height: 329px;
+    background-color: #ccc;
+  }
+  
+  .post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .left-icons {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .left-icons span {
+    display: flex;
+    gap: 5px;
+  }
+
+  .liked {
+    filter: invert(80%) sepia(95%) saturate(5500%) hue-rotate(-10deg) brightness(90%) contrast(100%);
+}
+
+  .left-icons span img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+
+
+  .right-icons {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .right-icons span {
+    display: flex;
+    gap: 5px;
+  }
+
+  .right-icons span img {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+  }
+  
+  
+    
+  
