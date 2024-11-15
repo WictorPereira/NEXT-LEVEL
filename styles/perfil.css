@@ -13,6 +13,7 @@
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    justify-content: space-between;
   }
 
   /* Side bar*/
@@ -97,11 +98,15 @@
   /*Main*/
 
   .main-container{
+    flex: 1;
     display: flex;
     flex-direction: column;
-    width: 630px;
+    max-width: 630px;
+    
     margin-top: 40px;
+    margin-bottom: 40px;
     margin-left: 20px;
+    margin-right: 20px;
     overflow-y: scroll;
     scrollbar-width: none;
   }
@@ -308,6 +313,170 @@
     cursor: pointer;
   }
   
-  
-    
-  
+  /*Sidebar-direita*/
+
+  .sidebar-direita{
+    margin-top: 85px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .alinhar-level{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #13233a;
+    padding: 15px;
+  }
+  .level-section {
+    width: 300px;
+    padding: 20px;
+    background-color: #13233a;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.alinhar-level h2 {
+    font-size: 40px;
+    font-weight: 200;
+    margin: 0;
+}
+
+.level-circle {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.level-circle p{
+    font-size: 48px;
+}
+
+.xp-bar {
+    width: 100%;
+    height: 6px;
+    background-color: #394b60;
+    position: relative;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+
+.xp-fill {
+    width: 50%; 
+    height: 100%;
+    background-color: #b0b8c1;
+    border-radius: 3px;
+}
+
+.xp-text {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    font-size: 12px;
+    color: #b0b8c1;
+}
+
+.achievements {
+    font-size: 14px;
+    color: #b0b8c1;
+    margin: 0;
+    font-style: italic;
+}
+
+
+.suggestions {
+    background-color: #13233a;
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+    color: white;
+    margin-top: 20px;
+  }
+
+  .suggestions h2 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+  }
+
+  .user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .user:last-child {
+    margin-bottom: 0;
+  }
+
+  .user-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .user-icon img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .user-info strong {
+    font-size: 18px;
+  }
+
+  .user-info .level {
+    font-size: 10px;
+    color: #ffffff8a;
+  }
+
+  .user-info .description {
+    font-size: 10px;
+    color: #ffffff8a;
+  }
+
+  .jogos-favoritos{
+    width: 300px;
+    height: 126px;
+    margin-top: 20px;
+    background-color: #13233a;
+    padding: 5px 10px 5px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .jogos-favoritos h3{
+    font-weight: 500;
+  }
+  .div-icones-games{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .div-icones-games img{
+    border: 1px solid rgba(48, 90, 145, 0);
+    transition: border-color 0.3s ease, border-width 0.3s ease;
+    padding: 2px;
+  }
+  .div-icones-games img:hover{
+    border-color: rgb(80, 120, 200);
+    border-width: 1px;
+  }
