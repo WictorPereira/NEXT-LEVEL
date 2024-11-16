@@ -439,6 +439,7 @@
 
   .user-info strong {
     font-size: 18px;
+    cursor: pointer;
   }
 
   .user-info .level {
@@ -479,4 +480,98 @@
   .div-icones-games img:hover{
     border-color: rgb(80, 120, 200);
     border-width: 1px;
+  }
+
+   /*RESPONSIVIDADE*/
+
+   @media (max-width: 1140px) {
+    .sidebar-msg {
+      width: 80px;
+      padding-top: 200px;
+      
+    }
+  
+    .logo-msg {
+      display: none;
+     }
+  
+  .a-li-texto{
+      display: none;
+    }
+  
+    nav ul li img {
+      margin-right: 0px;
+    }
+  
+    .privacy p{
+      border-top: 1px solid #ffff;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-top: 20px;
+      padding-left: 5px;
+      font-size: 11px;
+      font-weight: 500;
+  }
+  }
+
+  @media (max-width: 1260px) {
+    .nav-lista {
+      gap: 30px;     
+    }
+  }
+
+  @media (max-width: 950px) {
+    .nav-lista {
+      gap: 20px;     
+    }
+    .level-section {
+      width: 250px;
+      padding: 20px;
+  }
+  .alinhar-level{
+    width: 250px;
+  }
+  .suggestions {
+    width: 250px;
+  }
+  .jogos-favoritos{
+    width: 250px;
+  }
+  }
+
+  @media (max-width: 950px) {
+    .nav-lista {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;     
+    }
+  }
+
+  @media (max-width: 750px) {
+    .usuario-e-foto h3{
+      font-size: 20px;
+    }
+    .sidebar-direita{
+      display: none;
+    }
+  }
+
+  @media (max-width: 410px) {
+    .usuario-e-foto h3{
+      font-size: 16px;
+    }
+    
+  .post-content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .post-content .post-image img {
+    width: 100%;
+    height: 250px;
+    background-color: #ccc;
+  }
+  .banner-usuario{
+    height: 200px;
+  }
   }
